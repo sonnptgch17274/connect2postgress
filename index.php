@@ -18,7 +18,7 @@
 		    ltrim($db["path"], "/")
 		));
 		
-		$sql = "SELECT studentname, course FROM registercourse";
+		$sql = "SELECT * FROM registercourse";
 		$stmt = $pdo->prepare($sql);
 		//Thiết lập kiểu dữ liệu trả về
 		$stmt->setFetchMode(PDO::FETCH_ASSOC);
