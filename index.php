@@ -28,7 +28,7 @@
 	?>
 	<ul>
 		<?php  
-			foreach ($resultSet as $row) {
+			foreach ($resultSet as $column) {
 			echo '<li>' .
 				$row['studentname'] . ' --' . $row['course'] . ' --' .$row[dob] 
 				. '</li>';
